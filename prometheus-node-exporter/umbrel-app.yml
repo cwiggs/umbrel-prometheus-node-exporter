@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: prometheus-node-exporter
+name: Prometheus Node Exporter
+tagline: Monitor your server metrics with Prometheus Node Exporter
+icon: >
+  https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.png
+
+category: Networking
+version: "0.1.0"
+port: 9100
+
+# Add description from prom site.
+description: >-
+  Prometheus exporter for hardware and OS metrics exposed by *NIX kernels,
+  written in Go with pluggable metric collectors.
+
+developer: Prometheus 
+website: https://prometheus.io/
+submitter: cwiggs
+submission: https://github.com/cwiggs/umbrel-prometheus-node-exporter
+repo: https://github.com/cwiggs/umbrel-prometheus-node-exporter
+support: https://github.com/cwiggs/umbrel-prometheus-node-exporter/issues
+gallery:
+releaseNotes:
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
